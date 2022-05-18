@@ -6,6 +6,8 @@ import MovieAdd from "./pages/MovieAdd";
 import MovieList from "./pages/MovieList";
 import Welcome from "./components/Menu/Welcome";
 
+const peliculas = [];
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>

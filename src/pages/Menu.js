@@ -5,8 +5,11 @@ import "./MenuItem.css";
 const Menu = () => {
   const navigate = useNavigate();
 
-  const handleClick = () => {
+  const MovieAdd = () => {
     navigate("/MovieAdd");
+  };
+  const MovieList = () => {
+    navigate("/MovieList");
   };
 
   return (
@@ -16,7 +19,7 @@ const Menu = () => {
           className="menu-item"
           variant="contained"
           color="error"
-          onClick={handleClick}
+          onClick={MovieList}
         >
           <img src="movies.png" className="img"></img>
           <p className="text">Llistat de pel·lícules</p>
@@ -26,7 +29,7 @@ const Menu = () => {
           className="menu-items"
           variant="contained"
           color="success"
-          onClick={handleClick}
+          onClick={MovieAdd}
         >
           <img src="addmovie.png" className="img"></img>
           <p className="text">Afegir pel·licula</p>
