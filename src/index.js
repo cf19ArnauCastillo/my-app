@@ -4,12 +4,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Menu from "./pages/Menu";
 import MovieAdd from "./pages/MovieAdd";
 import MovieList from "./pages/MovieList";
-import Navbar from "./components/Navbar";
+import Welcome from "./components/Menu/Welcome";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <Navbar />
+    <Welcome />
 
     <Routes>
       <Route path="/" element={<Menu />}></Route>
