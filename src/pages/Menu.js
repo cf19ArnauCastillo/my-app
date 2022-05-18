@@ -8,6 +8,7 @@ const Menu = () => {
   const handleClick = () => {
     navigate("/MovieAdd");
   };
+
   return (
     <div>
       <Stack spacing={2} direction="row">
