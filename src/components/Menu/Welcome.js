@@ -1,15 +1,18 @@
+import { AppBar, Box, Toolbar, Typography } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
 const Welcome = () => {
   return (
-    <div>
-      <h1>Bienvenido Juan Luis</h1>
-      <ul>
-        <li>
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            Bienvenido Juan Luis
+          </Typography>
           <NavLink to="/">Home</NavLink>
-        </li>
-      </ul>
-    </div>
+        </Toolbar>
+      </AppBar>
+    </Box>
   );
 };
 
