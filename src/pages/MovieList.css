@@ -28,3 +28,43 @@ input:focus, textarea:focus{
     width: 5%;
     font-size: 20px;
 }
+
+.imagen{
+    height: 400px;
+    width: 80%;
+}
+
+.container {
+    float: left;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    padding-right: 5px;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    font-size: 70px;
+    color: white;
+  }
+
+  .bottom-centered-top{
+    position: absolute;
+    bottom: 50px;
+    left: 240px;
+    font-size: 60px;
+    color: white;
+  }
+  
+  /* Bottom right text */
+  .bottom-centered {
+    position: absolute;
+    bottom: 15px;
+    left: 240px;
+    font-size: 35px;
+    color: white;
+  }
